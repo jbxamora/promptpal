@@ -35,7 +35,7 @@ const Nav = () => {
           height={30}
           className="object-contain"
         />
-        <p className="logo_text">Promptopia</p>
+        <p className="logo_text">PromptPal</p>
       </Link>
       <div className="sm:flex hidden">
         {session?.user ? (
@@ -48,12 +48,13 @@ const Nav = () => {
               Sign Out
             </button>
 
-            <Link href="/profile" className="rounded-full">
+            <Link href="/profile">
               <Image
-                src="/assets/images/logo.svg"
+                src={session?.user.image}
                 width={37}
                 height={37}
                 alt="profile"
+                className="rounded-full"
               />
             </Link>
           </div>
@@ -79,7 +80,7 @@ const Nav = () => {
         {session?.user ? (
           <div>
             <Image
-              src="/assets/images/logo.svg"
+              src={session?.user.image}
               width={37}
               height={37}
               className="rounded-full"
@@ -103,13 +104,14 @@ const Nav = () => {
                   Create Prompt
                 </Link>
                 <button
-                type="button"
-                onClick={() => {
+                  type="button"
+                  onClick={() => {
                     setToggleDropdown(false);
                     signOut();
-                }}
-                className="mt-5 w-full black_btn">
-                    Sign Out
+                  }}
+                  className="mt-5 w-full black_btn"
+                >
+                  Sign Out
                 </button>
               </div>
             )}
