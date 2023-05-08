@@ -1,3 +1,4 @@
+import Feed from "@components/Feed";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         your mind - you never know what gems you'll uncover. Spin the wheel of
         inspiration, forge your masterpiece, and pass on the creative confetti!
       </p>
+      <Feed />
     </section>
   );
 }
