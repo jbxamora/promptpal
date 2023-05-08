@@ -16,10 +16,11 @@
   justify-content: center;
   padding: 120px 24px 160px 24px;
   pointer-events: none;
+  background-color: #000;
 }
 
 .main:before {
-  background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%);
+  background: radial-gradient(circle, rgba(2, 2, 2, 0) 0, #010101 230%);
   position: absolute;
   content: "";
   z-index: 2;
@@ -37,7 +38,6 @@
   height: 100%;
   top: 0;
   opacity: 0.4;
-  filter: invert(1);
 }
 
 .gradient {
@@ -60,8 +60,8 @@
   content: "";
   width: 100%;
   height: 100%;
-  filter: blur(100px) saturate(150%);
-  top: 80px;
+  filter: blur(100px) saturate(250%);
+  top: 10px;
   opacity: 0.15;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .black_btn {
-  @apply rounded-full border border-black bg-black py-1.5 px-5 text-white transition-all hover:bg-white hover:text-black text-center text-sm font-inter flex items-center justify-center;
+  @apply rounded-full border border-white bg-black py-1.5 px-5 text-white transition-all hover:bg-white hover:text-black text-center text-sm font-inter flex items-center justify-center;
 }
 
 .outline_btn {
@@ -86,7 +86,7 @@
 }
 
 .head_text {
-  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl;
+  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-orange-100 sm:text-6xl;
 }
 
 .orange_gradient {
@@ -102,7 +102,7 @@
 }
 
 .desc {
-  @apply mt-5 text-lg text-gray-600 sm:text-xl max-w-2xl;
+  @apply mt-5 text-lg text-gray-400 sm:text-xl max-w-2xl;
 }
 
 .search_input {

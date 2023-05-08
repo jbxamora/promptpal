@@ -1,20 +1,22 @@
-import "@styles/globals.css"
+import "@styles/globals.css";
 
 export const metadata = {
-    title: "PromptPal",
-    description: "Discover & Share AI Prompts"
-}
+  title: "PromptPal",
+  description: "Discover & Share AI Prompts",
+};
 
-const layout = () => {
+const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body>
         <div className="main">
-
+          <div className="gradient" />
         </div>
+
+        <main className="app">{children}</main>
       </body>
     </html>
-  )
-}
+  );
+};
 
-export default layout
+export default RootLayout;
