@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PromptPal
 
-## Getting Started
+PromptPal is an AI prompt generator that's like a pinata for your mind - you never know what gems you'll uncover. Spin the wheel of inspiration, forge your masterpiece, and pass on the creative confetti!
 
-First, run the development server:
+## Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Create & Share Prompts
+- Created with NEXTJS
+- Auth
+- Easy integration
+- Fully Responsive
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Take A Look!
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+[Deployed Site](https://promptpal-jxvgwuymn-jbxamora.vercel.app/)
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Follow these steps to install and set up PromptPal on your local machine:
 
-## Learn More
+Clone the repository:  
 
-To learn more about Next.js, take a look at the following resources:
+`git clone https://github.com/jbxamora/promptpal.git` . 
+  
+Install Dependencies:  
+  
+`npm i` **or** `npm install`
+  
+Create dotenv file:
+  
+`GOOGLE_ID=https://console.cloud.google.com/
+  
+GOOGLE_CLIENT_SECRET=https://console.cloud.google.com/
+  
+MONGODB_URL='yourmongodburl
+  
+NEXTAUTH_URL=http://localhost:3000
+  
+NEXTAUTH_URL_INTERNAL=http://localhost:3000
+  
+NEXTAUTH_SECRET=yoursuperdupersecret`
+  
+Run on your local machine:
+  
+`npm run dev`
+  
+**Happy Hacking!**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
