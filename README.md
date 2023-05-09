@@ -6,11 +6,12 @@ PromptPal is an AI prompt generator that's like a pinata for your mind - you nev
 
 - Create & Share Prompts
 - Created with NEXTJS
-- Auth
+- Google OAuth
 - Easy integration
 - Fully Responsive
 
 ## Take A Look!
+<img width="1709" alt="promptpal" src="https://user-images.githubusercontent.com/113067058/236995168-95c1f4c5-ecf2-4836-a3fb-1f2ee38bc94b.png">
 
 [Deployed Site](https://promptpal-jxvgwuymn-jbxamora.vercel.app/)
 ## Installation
