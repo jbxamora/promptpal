@@ -5,6 +5,9 @@ import Provider from "@components/Provider";
 export const metadata = {
   title: "PromptPal",
   description: "Discover & Share AI Prompts",
+  icons: {
+    icon: "/assets/images/logo.svg",
+  }
 };
 
 const RootLayout = ({ children }) => {
