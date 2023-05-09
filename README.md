@@ -1,14 +1,21 @@
 # PromptPal
 
-PromptPal is an AI prompt generator that's like a pinata for your mind - you never know what gems you'll uncover. Spin the wheel of inspiration, forge your masterpiece, and pass on the creative confetti!
+PromptPal is an AI prompt sharing website that's like a pinata for your mind - you never know what gems you'll uncover. Spin the wheel of inspiration, forge your masterpiece, and pass on the creative confetti!
 
 ## Key Features
 
-- Create & Share Prompts
-- Created with NEXTJS
+- Create, Share, Edit or Delete Prompts
+- View User Profiles
 - Google OAuth
 - Easy integration
 - Fully Responsive
+
+## Technologies Used
+- React
+- Next13
+- Google OAuth
+- TailwindCSS
+- Bcrypt
 
 ## Take A Look!
 <img width="1709" alt="promptpal" src="https://user-images.githubusercontent.com/113067058/236995168-95c1f4c5-ecf2-4836-a3fb-1f2ee38bc94b.png">
