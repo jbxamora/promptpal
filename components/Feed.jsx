@@ -51,7 +51,7 @@ const Feed = () => {
     clearTimeout(searchTimeout);
     setSearchText(e.target.value);
 
-    // debounce method
+    // debounce method 
     setSearchTimeout(
       setTimeout(() => {
         const searchResult = filterPrompts(e.target.value);
@@ -80,7 +80,7 @@ const Feed = () => {
         />
       </form>
 
-      {/* All Prompts */}
+      {/* All Prompts */} 
       {searchText ? (
         <PromptCardList
           data={searchedResults}
